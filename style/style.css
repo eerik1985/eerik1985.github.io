@@ -1,0 +1,34 @@
+body {
+  font-family: "Open Sans"; }
+
+.row {
+  padding: 30px 0; }
+
+.navbar .navbar-brand {
+  margin-left: 50px; }
+.navbar .btn-preorder {
+  margin-right: 50px; }
+
+#books-to-come {
+  padding: 15px 0;
+  background-color: #f5f5f5; }
+  #books-to-come .subheader {
+    font-weight: 600; }
+  #books-to-come .book-text {
+    font-size: 13px; }
+
+#fav-text .subheader {
+  color: #696969; }
+
+#guide {
+  position: fixed;
+  bottom: 0;
+  right: 30px; }
+
+#footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  font-size: 12px;
+  color: #696969; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+$gray1: #f5f5f5;
+$gray2: #696969;
+
+body {
+  font-family: "Open Sans";
+}
+
+.row {
+  padding: 30px 0;
+}
+
+.navbar {
+  .navbar-brand {
+    margin-left: 50px;
+  }
+
+  .btn-preorder {
+    margin-right: 50px;
+    
+  }
+}
+
+#books-to-come {
+  padding: 15px 0;
+  background-color: $gray1;
+  .subheader {
+    font-weight: 600;
+  }
+
+  .book-text {
+    font-size: 13px;
+  }
+}
+
+#fav-text {
+  .subheader {
+    color: $gray2;
+  }
+}
+
+#guide {
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+}
+
+#footer {
+  background-color: $gray1;
+  padding: 20px 0;
+  font-size: 12px;
+  color: $gray2;
+}
