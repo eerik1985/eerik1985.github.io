@@ -1,24 +1,71 @@
 body {
   font-family: "Open Sans"; }
 
+a {
+  text-decoration: none !important; }
+
+h4 {
+  margin-bottom: 15px; }
+
 .row {
   padding: 30px 0; }
 
+.thumbnail {
+  border: none; }
+
+.bold {
+  font-weight: 600; }
+
+.navbar.show {
+  background-color: white;
+  border-bottom: 1px solid #cccccc;
+  height: 80px; }
 .navbar .navbar-brand {
+  margin-top: 16px;
   margin-left: 50px; }
 .navbar .btn-preorder {
-  margin-right: 50px; }
+  margin-top: 9px;
+  margin-right: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: #18a3fa;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 25px; }
+  .navbar .btn-preorder:hover {
+    background-color: #0074bd; }
+
+.buy-apple {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  width: 140px; }
 
 #books-to-come {
   padding: 15px 0;
   background-color: #f5f5f5; }
   #books-to-come .subheader {
+    margin-top: 35px;
     font-weight: 600; }
   #books-to-come .book-text {
     font-size: 13px; }
 
 #fav-text .subheader {
+  margin-top: 22px;
   color: #696969; }
+
+#buy h4 {
+  margin-top: 35px; }
+
+#social .fa-stack {
+  margin: 50px 6px; }
+  #social .fa-stack .fa-circle {
+    color: #41c3d5; }
+    #social .fa-stack .fa-circle:hover {
+      color: #33aaba; }
+  #social .fa-stack:hover .fa-circle {
+    color: #33aaba; }
 
 #guide {
   position: fixed;
@@ -26,9 +73,13 @@ body {
   right: 30px; }
 
 #footer {
+  height: 72px;
   background-color: #f5f5f5;
-  padding: 20px 0;
+  padding: 29px 0;
   font-size: 12px;
   color: #696969; }
+  #footer a {
+    margin-left: 40px;
+    color: #696969; }
 
 /*# sourceMappingURL=style.css.map */

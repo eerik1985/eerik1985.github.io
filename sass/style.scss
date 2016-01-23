@@ -1,29 +1,78 @@
+
 $gray1: #f5f5f5;
 $gray2: #696969;
 
+$blue1: #18a3fa;
+$blue2: #0074bd;
+
+$green1: #41c3d5;
+$green2: #33aaba;
+
 body {
   font-family: "Open Sans";
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h4 {
+  margin-bottom: 15px;
 }
 
 .row {
   padding: 30px 0;
 }
 
+.thumbnail {
+  border: none;
+}
+
+.bold {
+  font-weight: 600;
+}
+
 .navbar {
+  &.show {
+    background-color: white;
+    border-bottom: 1px solid #cccccc;
+    height: 80px;
+  }
+
   .navbar-brand {
+    margin-top: 16px;
     margin-left: 50px;
   }
 
   .btn-preorder {
+    margin-top: 9px;
     margin-right: 50px;
-    
+    border-radius: 30px;
+    border: none;
+    background-color: $blue1;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 25px;
+
+    &:hover {
+      background-color: $blue2;
+    }
   }
+}
+
+.buy-apple {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  width: 140px;
 }
 
 #books-to-come {
   padding: 15px 0;
   background-color: $gray1;
   .subheader {
+    margin-top: 35px;
     font-weight: 600;
   }
 
@@ -34,7 +83,32 @@ body {
 
 #fav-text {
   .subheader {
+    margin-top: 22px;
     color: $gray2;
+  }
+}
+
+#buy {
+  h4 {
+    margin-top: 35px;
+  }
+}
+
+#social {
+  .fa-stack {
+    margin: 50px 6px;
+    .fa-circle {
+      color: $green1;
+      &:hover {
+        color: $green2;
+      }
+    }
+
+    &:hover {
+      .fa-circle {
+        color: $green2;
+      }
+    }
   }
 }
 
@@ -45,8 +119,14 @@ body {
 }
 
 #footer {
+  height: 72px;
   background-color: $gray1;
-  padding: 20px 0;
+  padding: 29px 0;
   font-size: 12px;
   color: $gray2;
+  a {
+    margin-left: 40px;
+    color: $gray2;
+
+  }
 }
